@@ -1,5 +1,7 @@
-node {
-    stage ( 'docker build' ) {
+node 
+{
+    stage ( 'docker build' ) 
+    {
         docker build image 'ubuntu'
-       }
     }
+}
