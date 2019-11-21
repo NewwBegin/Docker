@@ -1,6 +1,6 @@
 pipeline{ 
     agent{
-    stage('docker build'){
+        docker{
         def app = docker build image 'ubuntu'
     }
   }
