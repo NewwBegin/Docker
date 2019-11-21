@@ -1,6 +1,5 @@
 node {
-    agent
-      docker {
-        image 'ubuntu'
+    stage ( 'docker build' ) {
+        docker build image 'ubuntu'
        }
     }
