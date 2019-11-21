@@ -1,7 +1,6 @@
 node {
-    agent {
+    agent
       docker {
         image 'ubuntu'
        }
     }
-}
