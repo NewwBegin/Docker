@@ -1,7 +1,6 @@
-node 
-{
-    stage ( 'docker build' ) 
-    {
-        docker build image 'ubuntu'
+node {
+   
+    stage ('docker build') {
+        def app = docker build image 'ubuntu'
     }
 }
